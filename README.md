@@ -2,7 +2,7 @@
 
 Pranav Eranki 2018
 
-Flask web app that uses API service to predict whether the product review is positive or negative.
+Flask web app that uses a API service to predict whether the product review is positive or negative.
 
 # Dataset
 
@@ -82,7 +82,7 @@ where
 * unixReviewTime - time of the review (unix time)
 * reviewTime - time of the review (raw)
 
- Here are the codes to read the data into a pandas data frame as Julian McAuley indicates:
+ Here is the code to read the data into a pandas data frame:
 
 ```python
 import pandas as pd
